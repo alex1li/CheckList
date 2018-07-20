@@ -11,6 +11,7 @@ from flask_bootstrap import Bootstrap
 
 # local imports
 from config import app_config
+import os
 
 # db variable initialization
 db = SQLAlchemy()
