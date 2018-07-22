@@ -70,27 +70,42 @@ p.copyright {
 .intro-header {
     padding-top: 50px;
     padding-bottom: 50px;
-    text-align: center;
-    color: #f8f8f8;
-    background: url(../img/banner.png) no-repeat center center;
+    text-align: left;
+    color: #aec251;
     background-size: cover;
     height: 100%;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    left : 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+    font-size: 5vw;
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    margin: 0;
+    font-size: 2vw;
+    color: #708090;
+}
+
+.col-sm-4 > h1{
+    text-align: center;
+    font-size: 2vw;
+}
+
+.img-responsive{
+    max-width: 15vw;
+    max-height: 15vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .lead {
